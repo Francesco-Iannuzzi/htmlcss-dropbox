@@ -26,6 +26,18 @@
     --db-grenade: #610a2c;
 }
 
+ul
+{
+    list-style: none;
+}
+
+button
+{
+    text-decoration: none;
+    border: none;
+    text-align: center;
+}
+
 /* #endregion commons */
 
 /* #region utilities */
@@ -56,18 +68,43 @@ body
 
 /* #region header */
 
-.debug #menu_left
+.app-header
 {
-    height: 3rem;
-    width: 50%;
-    background-color: red;
+    line-height: 3rem;
+    justify-content: space-between;
 }
 
-.debug #menu_right
+.menu_left
 {
-    height: 3rem;
     width: 50%;
-    background-color: yellow;
+}
+
+#logo
+{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.navigation_left
+{
+    justify-content: space-around;
+    width: 30rem;
+    font-size: 0.8rem;
+}
+
+.navigation_right
+{
+    justify-content: space-around;
+    width: 30rem;
+    font-size: 0.8rem;
+}
+
+.navigation_right button
+{
+    background-color: var(--db-button);
+    color: var(--db-light);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
 
 /* #endregion header */
