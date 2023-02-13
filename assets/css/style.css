@@ -68,7 +68,7 @@ body
 
 /* #region main */
 
-/* #region allyouneed */
+/* #region jumbotron */
 
 #jumbotron
 {
@@ -76,18 +76,47 @@ body
     padding-top: 5rem;
 }
 
+/* #region jumbotron */
+
+/* #region allyouneed */
+
 .debug #jumbotron
 {
     height: 40rem;
     width: 100%;
 }
-/* #endregion allyouneed */
-
 
 .debug .allyouneed
 {
     height: 35rem;
     background-color: green;
 }
+
+.debug .allyouneed_top
+{
+    background-color: red;
+    height: 35%;
+}
+
+.debug .allyouneed_bottom
+{
+    background-color: yellow;
+    height: 65%;
+}
+
+.debug .need_text
+{
+    background-color: blue;
+    width: 30%;
+}
+
+.debug .need_img
+{
+    background-color: orange;
+    width: 70%;
+}
+
+/* #endregion allyouneed */
+
 
 /* #endregion main */
