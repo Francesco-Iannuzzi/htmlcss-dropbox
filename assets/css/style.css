@@ -211,6 +211,57 @@ body
     height: 30rem;
 }
 
+/* #region business */
+
+.debug #business
+{
+    height: 100rem;
+    padding: 5rem 0 3rem;
+}
+
+.more_operation
+{
+
+}
+
+.debug .more_operation
+{
+    background-color: yellow;
+    height: 80rem;
+}
+
+.debug .more_operationtop
+{
+    height: 10%;
+    background-color: red;
+}
+
+.more_operationbottom
+{
+    flex-wrap: wrap;
+}
+
+
+.debug .more_operationbottom
+{
+    height: 90%;
+    background-color: blue;
+}
+
+.operations
+{
+    margin: 1px;
+}
+
+.debug .operations
+{
+    background-color: yellow;
+    border-color: 5px solid green;
+    width: calc(100% / 3 - 2px);
+}
+
+/* #endregion business */
+
 /* #endregion partner */
 
 
