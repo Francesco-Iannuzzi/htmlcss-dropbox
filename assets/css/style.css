@@ -340,4 +340,20 @@ body
 
 /* #endregion banner */
 
+/* #region frequent_questions */
+
+#frequent_question
+{
+    margin: 5rem 0 5rem;
+}
+
+.debug .questions
+{
+    background-color: blue;
+    height: 30rem;
+    margin: 5rem 0 5rem;
+}
+
+/* #endregion frequent_questions */
+
 /* #endregion main */
