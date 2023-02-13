@@ -342,18 +342,52 @@ body
 
 /* #region frequent_questions */
 
-#frequent_question
+.frequent_question
 {
-    margin: 5rem 0 5rem;
+
 }
 
 .debug .questions
 {
     background-color: blue;
     height: 30rem;
-    margin: 5rem 0 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 /* #endregion frequent_questions */
 
 /* #endregion main */
+
+/* #region footer */
+
+#app-footer
+{
+    background-color: var(--db-dark);
+}
+
+.debug #app-footer
+{
+    height: 30rem;
+}
+
+.debug .top_footer
+{
+    background-color: red;
+    height: 70%;
+}
+
+.debug .bottom_footer
+{
+    background-color: blue;
+    height: 30%;
+}
+
+.debug .info
+{
+    background-color: yellow;
+    border: 2px solid green;
+    width: calc(100% / 5);   
+}
+
+/* #endregion footer */
