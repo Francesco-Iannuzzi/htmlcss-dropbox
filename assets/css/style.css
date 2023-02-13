@@ -36,7 +36,10 @@ button
     text-decoration: none;
     border: none;
     text-align: center;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
+
 
 /* #endregion commons */
 
@@ -64,6 +67,8 @@ button
 body 
 {
     font-family: 'Open Sans', sans-serif;
+    max-width: 2000px;
+    min-width: 1200px;
 }
 
 /* #region header */
@@ -72,6 +77,8 @@ body
 {
     line-height: 3rem;
     justify-content: space-between;
+    background-color: var(--db-light);
+    position: sticky;
 }
 
 .menu_left
@@ -103,8 +110,6 @@ body
 {
     background-color: var(--db-button);
     color: var(--db-light);
-    padding: 0.5rem 1rem;
-    cursor: pointer;
 }
 
 /* #endregion header */
@@ -116,50 +121,67 @@ body
 #jumbotron
 {
     background-color: var(--db-jumbo);
-    padding-top: 5rem;
 }
 
-.debug #jumbotron
+#jumbotron h1
 {
-    height: 40rem;
-    width: 100%;
+    font-size: 4.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: var(--db-dark);
 }
+
+.allyouneed
+{
+    height: 100%
+}
+
+
+.allyouneed_bottom
+{
+    position: relative;
+}
+
+.jumbo_text
+{
+    width: 30%;
+    max-height: 100%;
+    font-size: 1.2rem;
+    color: var(--db-dark);
+}
+
+
+.jumbo_text button
+{
+    background-color: var(--db-button);
+    color: var(--db-light);
+    margin: 2rem 0;
+    font-size: 1.2rem;
+}
+
+.arrow
+{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: var(--db-dark);
+}
+
+
+#jumbotron img
+{
+    max-width: 100%;
+}
+
+.jumbo_img
+{
+    width: 70%;
+    margin-bottom: -5rem;
+}
+
+
 
 /* #region jumbotron */
-
-/* #region allyouneed */
-
-.debug .allyouneed
-{
-    height: 35rem;
-    background-color: green;
-}
-
-.debug .allyouneed_top
-{
-    background-color: red;
-    height: 35%;
-}
-
-.debug .allyouneed_bottom
-{
-    background-color: yellow;
-    height: 65%;
-}
-
-.debug .need_text
-{
-    background-color: blue;
-    width: 30%;
-}
-
-.debug .need_img
-{
-    background-color: orange;
-    width: 70%;
-}
-
-/* #endregion allyouneed */
 
 /* #region plans */
 
