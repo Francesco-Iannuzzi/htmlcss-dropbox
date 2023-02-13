@@ -211,6 +211,8 @@ body
     height: 30rem;
 }
 
+/* #endregion partner */
+
 /* #region business */
 
 .debug #business
@@ -271,8 +273,6 @@ body
 }
 
 /* #endregion team */
-
-/* #endregion partner */
 
 
 /* #endregion main */
