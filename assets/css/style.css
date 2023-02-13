@@ -1,0 +1,41 @@
+/* #region commons */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --db-light: #ffffff;
+    --db-jumbo: #b4d0e7;
+    --db-dark: #000000;
+    --db-button: #0061ff;
+    --db-teamprimary: #f5f5f5;
+    --db-teamdesign: #a2d39b;
+    --db-teamdesignb: #d1e9cd;
+    --db-teamasu: #61082b;
+    --db-teamflo: #0093ce;
+    --db-teamtop: #ff1c1c;
+    --db-teamworld: #d5001f;
+    --db-teamhearts: #b4d0e7;
+    --db-teamlonely: #0d2481;
+    --db-teamclear: #ffd830;
+    --db-grenade: #610a2c;
+}
+
+/* #endregion commons */
+
+/* #region utilities */
+
+/* #endregion utilities */
+
+body 
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
