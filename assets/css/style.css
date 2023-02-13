@@ -41,6 +41,12 @@
     margin: auto;
 }
 
+.small_container 
+{
+    width: 85%;
+    margin: auto;
+}
+
 /* #endregion utilities */
 
 body 
@@ -76,15 +82,15 @@ body
     padding-top: 5rem;
 }
 
-/* #region jumbotron */
-
-/* #region allyouneed */
-
 .debug #jumbotron
 {
     height: 40rem;
     width: 100%;
 }
+
+/* #region jumbotron */
+
+/* #region allyouneed */
 
 .debug .allyouneed
 {
@@ -117,6 +123,56 @@ body
 }
 
 /* #endregion allyouneed */
+
+/* #region plans */
+
+.debug #plans
+{
+    height: 100rem;
+    padding: 5rem 0 3rem;
+}
+
+.type_plans
+{
+
+}
+
+.debug .type_plans
+{
+    background-color: yellow;
+    height: 80rem;
+}
+
+.debug .type_planstop
+{
+    height: 10%;
+    background-color: red;
+}
+
+.type_plansbottom
+{
+    flex-wrap: wrap;
+}
+
+
+.debug .type_plansbottom
+{
+    height: 90%;
+    background-color: blue;
+}
+
+.single_plans
+{
+    margin: 1px;
+}
+
+.debug .single_plans
+{
+    background-color: yellow;
+    border-color: 5px solid green;
+    width: calc(100% / 3 - 2px);
+}
+/* #endregion plans */
 
 
 /* #endregion main */
