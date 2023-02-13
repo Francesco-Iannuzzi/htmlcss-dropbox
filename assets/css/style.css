@@ -174,5 +174,44 @@ body
 }
 /* #endregion plans */
 
+/* #region partner */
+
+.debug #partner
+{
+  height: 40rem;
+  width: 100%;
+  padding: 5rem 0 5rem;  
+}
+
+.debug .contact_partner
+{
+    background-color: red;
+    height: 30rem;
+}
+
+.contact_left
+{
+    width: 60%;
+}
+
+.debug .contact_left
+{
+    background-color: yellow;
+    height: 30rem;
+}
+
+.contact_right
+{
+    width: 40%;
+}
+
+.debug .contact_right
+{
+    background-color: blue;
+    height: 30rem;
+}
+
+/* #endregion partner */
+
 
 /* #endregion main */
