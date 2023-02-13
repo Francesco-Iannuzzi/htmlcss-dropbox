@@ -276,10 +276,10 @@ body
 
 /* #region leaders_team */
 
-.debug #leaders_team
+.debug .leaders_team
 {
     height: 30rem;
-    padding: 5rem;
+    margin-top: 5rem;
 }
 
 
@@ -308,5 +308,36 @@ body
 
 /* #endregion leaders_team */
 
+/* #region banner */
+
+#banner
+{
+    background-color: var(--db-jumbo); 
+}
+
+.debug #banner
+{
+    height: 20rem;
+}
+
+.debug .company
+{
+    background-color: red;
+    height: 20rem;
+}
+
+.debug .company_left
+{
+    background-color: yellow;
+    width: 50%;
+}
+
+.debug .company_right
+{
+    background-color: red;
+    width: 50%;
+}
+
+/* #endregion banner */
 
 /* #endregion main */
