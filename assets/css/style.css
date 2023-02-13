@@ -30,6 +30,17 @@
 
 /* #region utilities */
 
+.flex
+{
+    display: flex;
+}
+
+.container
+{
+    width: 70%;
+    margin: auto;
+}
+
 /* #endregion utilities */
 
 body 
@@ -37,5 +48,46 @@ body
     font-family: 'Open Sans', sans-serif;
 }
 
+/* #region header */
+
+.debug #menu_left
+{
+    height: 3rem;
+    width: 50%;
+    background-color: red;
+}
+
+.debug #menu_right
+{
+    height: 3rem;
+    width: 50%;
+    background-color: yellow;
+}
+
+/* #endregion header */
+
+/* #region main */
+
+/* #region allyouneed */
+
+#jumbotron
+{
+    background-color: var(--db-jumbo);
+    padding-top: 5rem;
+}
+
+.debug #jumbotron
+{
+    height: 40rem;
+    width: 100%;
+}
+/* #endregion allyouneed */
 
 
+.debug .allyouneed
+{
+    height: 35rem;
+    background-color: green;
+}
+
+/* #endregion main */
