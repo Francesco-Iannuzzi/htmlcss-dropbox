@@ -274,5 +274,39 @@ body
 
 /* #endregion team */
 
+/* #region leaders_team */
+
+.debug #leaders_team
+{
+    height: 30rem;
+    padding: 5rem;
+}
+
+
+.leaders
+{
+    width: calc(100% / 3);
+}
+
+.leaders.left
+{
+    background-color: yellow;
+    height: 30rem;
+}
+
+.leaders.center
+{
+    background-color: blue;
+    height: 30rem;
+}
+
+.leaders.right
+{
+    background-color: green;
+    height: 30rem;
+}
+
+/* #endregion leaders_team */
+
 
 /* #endregion main */
