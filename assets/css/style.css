@@ -262,6 +262,16 @@ body
 
 /* #endregion business */
 
+/* #region team */
+
+.debug .more_team
+{
+    background-color: red;
+    height: 20rem;
+}
+
+/* #endregion team */
+
 /* #endregion partner */
 
 
