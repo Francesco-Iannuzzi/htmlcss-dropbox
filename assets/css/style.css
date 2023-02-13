@@ -67,6 +67,12 @@ button
     padding-left: 2rem;
 }
 
+.my-plans
+{
+    margin: 4rem 0;
+    line-height: 3rem;
+}
+
 /* #endregion utilities */
 
 body 
@@ -222,25 +228,26 @@ body
 .type_plansbottom
 {
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
 .debug .type_plansbottom
 {
-    height: 90%;
+    /* height: 90%; */
     background-color: blue;
 }
 
 .single_plans
 {
-    margin: 1px;
+    font-size: 1rem;
 }
 
-.debug .single_plans
+.single_plans
 {
     background-color: yellow;
     border: 1px solid var(--db-dark);
-    width: calc(100% / 3 - 2px);
+    width: calc(100% / 3 - 2rem);
 }
 
 .single_plans .rectangle
@@ -255,6 +262,7 @@ body
 {
     background-color: var(--db-button);
     color: var(--db-light);
+    font-size: 1.25rem;
 }
 
 .dettails .check
