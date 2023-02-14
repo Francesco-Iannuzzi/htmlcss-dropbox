@@ -99,7 +99,7 @@ section
 
 .my-plans
 {
-    margin: 4rem 0;
+    margin: 2rem 0;
     line-height: 3rem;
 }
 
@@ -260,14 +260,14 @@ section
     text-align: center;
 }
 
-.single_plans h3
-{
-    font-size: 1.5rem;
-}
-
 .single_plans hr
 {
     width: 5rem;
+}
+
+.my-plans > a
+{
+    padding-left: 0.5rem;
 }
 
 .horizontal
@@ -283,12 +283,6 @@ section
     position: absolute;
     right: 1rem;
     top: 8rem;
-}
-
-.single_plans button
-{
-    /* background-color: var(--db-button);
-    color: var(--db-light); */
 }
 
 .dettails .check
@@ -315,11 +309,6 @@ section
     padding: 5rem 3rem;
 }
 
-/* .contact_right h3
-{
-    font-size: 1.5rem;
-} */
-
 .contact_right p
 {
     margin: 3rem 0;
@@ -335,9 +324,9 @@ section
 
 /* #region business */
 
-.more_operation h2
+.more_operation h3
 {
-    padding: 4rem 0;
+    margin-bottom: 1rem;
 }
 
 .more_operationbottom
