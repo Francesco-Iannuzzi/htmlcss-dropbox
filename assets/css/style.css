@@ -26,6 +26,16 @@
     --db-grenade: #610a2c;
 }
 
+h2
+{
+    font-size: 3rem;
+}
+
+h3
+{
+    font-size: 1.5rem;
+}
+
 ul
 {
     list-style: none;
@@ -197,11 +207,6 @@ body
 
 /* #region plans */
 
-.type_planstop h2
-{
-    font-size: 3rem;
-}
-
 .type_planstop > .billing
 {
     padding: 2rem 0;
@@ -293,10 +298,10 @@ body
     padding: 5rem 3rem;
 }
 
-.contact_right h3
+/* .contact_right h3
 {
     font-size: 1.5rem;
-}
+} */
 
 .contact_right p
 {
@@ -309,61 +314,30 @@ body
     border: 1px solid var(--db-dark);
 }
 
-/* .debug .contact_right
-{
-    background-color: orange;
-    height: 30rem;
-} */
-
 /* #endregion partner */
 
 /* #region business */
 
-.debug #business
+.more_operation h2
 {
-    height: 100rem;
-    padding: 5rem 0 3rem;
-}
-
-.more_operation
-{
-
-}
-
-.debug .more_operation
-{
-    background-color: yellow;
-    height: 80rem;
-}
-
-.debug .more_operationtop
-{
-    height: 10%;
-    background-color: red;
+    line-height: 6rem;
 }
 
 .more_operationbottom
 {
     flex-wrap: wrap;
-}
-
-
-.debug .more_operationbottom
-{
-    height: 90%;
-    background-color: blue;
+    justify-content: space-between;
 }
 
 .operations
 {
-    margin: 1px;
+    width: 30%;
+    margin-bottom: 3rem;
 }
 
-.debug .operations
+.operations img
 {
-    background-color: yellow;
-    border-color: 5px solid green;
-    width: calc(100% / 3 - 2px);
+    max-width: 100%;
 }
 
 /* #endregion business */
