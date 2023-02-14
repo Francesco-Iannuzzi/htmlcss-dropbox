@@ -115,18 +115,17 @@ section
 
 .app-header
 {
-    line-height: 4rem;
-    justify-content: space-between;
-    background-color: var(--db-light);
     position: sticky;
     top: 0;
     left: 0;
     z-index: 1000;
+    background-color: var(--db-light);
+    line-height: 4rem;
 }
 
-.menu_left
+.navigation
 {
-    width: 50%;
+    justify-content: space-between;
 }
 
 #logo
@@ -135,27 +134,24 @@ section
     vertical-align: middle;
 }
 
-.navigation_left,
-.navigation_right
+#login
 {
-    justify-content: space-around;
-    width: 30rem;
-    font-size: 0.8rem;
+    background-color: var(--db-button);
+    color: var(--db-light);
 }
 
-.navigation_left button,
-.navigation_right button
+.nav_left .nav_b,
+.nav_right .nav_b
 {
     height: 100%;
     background-color: var(--db-light);
 }
 
-.navigation_left button:hover,
-.navigation_right button:hover
+.nav_left .nav_b:hover,
+.nav_right .nav_b:hover
 {
     border-bottom: 3px solid var(--db-dark);
 }
-
 
 /* #endregion header */
 
