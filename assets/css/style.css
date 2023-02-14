@@ -103,16 +103,25 @@ section
     line-height: 3rem;
 }
 
+.btn_blue
+{
+    background-color: var(--db-button);
+    color: var(--db-light);
+}
+
 /* #endregion utilities */
 
 /* #region header */
 
 .app-header
 {
-    line-height: 3rem;
+    line-height: 4rem;
     justify-content: space-between;
     background-color: var(--db-light);
     position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .menu_left
@@ -140,6 +149,13 @@ section
     height: 100%;
     background-color: var(--db-light);
 }
+
+.navigation_left button:hover,
+.navigation_right button:hover
+{
+    border-bottom: 3px solid var(--db-dark);
+}
+
 
 /* #endregion header */
 
@@ -182,8 +198,6 @@ section
 
 .jumbo_text button
 {
-    background-color: var(--db-button);
-    color: var(--db-light);
     margin: 2rem 0;
     font-size: 1.2rem;
 }
@@ -266,7 +280,7 @@ section
     padding-bottom: 2rem;
 }
 
-#sp_button
+.special
 {
     position: absolute;
     right: 1rem;
@@ -275,8 +289,8 @@ section
 
 .single_plans button
 {
-    background-color: var(--db-button);
-    color: var(--db-light);
+    /* background-color: var(--db-button);
+    color: var(--db-light); */
 }
 
 .dettails .check
@@ -325,7 +339,7 @@ section
 
 .more_operation h2
 {
-    line-height: 6rem;
+    padding: 4rem 0;
 }
 
 .more_operationbottom
@@ -351,7 +365,7 @@ section
 
 .more_team h2
 {
-    width: 70%;
+    width: 60%;
     margin-bottom: 3rem;
 }
 
