@@ -121,6 +121,7 @@ section
     z-index: 1000;
     background-color: var(--db-light);
     line-height: 3rem;
+    padding: 0 1rem;
 }
 
 .navigation
@@ -132,12 +133,18 @@ section
 {
     max-width: 100%;
     vertical-align: middle;
+
 }
 
 #login
 {
     background-color: var(--db-button);
     color: var(--db-light);
+}
+
+#login:hover
+{
+    background-color: #08429f;
 }
 
 .nav_left .nav_btn,
@@ -198,6 +205,11 @@ section
 {
     margin: 2rem 0;
     font-size: 1.2rem;
+}
+
+.jumbo_text button:hover
+{
+    background-color: #08429f;
 }
 
 .arrow
@@ -265,6 +277,11 @@ section
     width: 5rem;
 }
 
+.my-plans > button:hover
+{
+    background-color: #08429f;
+}
+
 .my-plans > a
 {
     padding-left: 0.5rem;
@@ -318,6 +335,11 @@ section
 {
     background-color: var(--db-light);
     border: 1px solid var(--db-dark);
+}
+
+.contact_right button:hover
+{
+    background-color: #e7e7e7;
 }
 
 /* #endregion partner */
@@ -480,6 +502,12 @@ section
     padding: 4rem 1;
     cursor: pointer;
 }
+
+.company_right button:hover
+{
+    background-color: #e7e7e7;
+}
+
 
 /* #endregion banner */
 
