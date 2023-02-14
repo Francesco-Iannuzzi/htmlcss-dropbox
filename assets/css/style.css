@@ -92,9 +92,9 @@ section
     margin: auto;
 }
 
-.pl-2
+.px-2
 {
-    padding-left: 2rem;
+    padding: 0 2rem;
 }
 
 .my-plans
@@ -231,7 +231,7 @@ section
 
 .single_plans
 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .single_plans
