@@ -40,6 +40,11 @@ button
     cursor: pointer;
 }
 
+section
+{
+    margin-bottom: 10rem;
+}
+
 
 /* #endregion commons */
 
@@ -192,11 +197,6 @@ body
 
 /* #region plans */
 
-.debug #plans
-{
-    padding: 5rem 0 3rem;
-}
-
 .type_planstop h2
 {
     font-size: 3rem;
@@ -238,6 +238,11 @@ body
     text-align: center;
 }
 
+.single_plans h3
+{
+    font-size: 1.5rem;
+}
+
 .single_plans hr
 {
     width: 5rem;
@@ -272,40 +277,43 @@ body
 
 /* #region partner */
 
-.debug #partner
-{
-  height: 40rem;
-  width: 100%;
-  padding: 5rem 0 5rem;  
-}
-
-.debug .contact_partner
-{
-    background-color: red;
-    height: 30rem;
-}
-
 .contact_left
 {
     width: 60%;
 }
 
-.debug .contact_left
+.contact_left img
 {
-    background-color: green;
-    height: 30rem;
+    max-width: 100%;
 }
 
 .contact_right
 {
     width: 40%;
+    padding: 5rem 3rem;
 }
 
-.debug .contact_right
+.contact_right h3
+{
+    font-size: 1.5rem;
+}
+
+.contact_right p
+{
+    margin: 3rem 0;
+}
+
+.contact_right button
+{
+    background-color: var(--db-light);
+    border: 1px solid var(--db-dark);
+}
+
+/* .debug .contact_right
 {
     background-color: orange;
     height: 30rem;
-}
+} */
 
 /* #endregion partner */
 
