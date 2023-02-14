@@ -395,12 +395,14 @@ body
     border: 1px solid black;
     text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 .square > img
 {
-    align-items: center;
     max-width: 40%;
+    max-height: 40%;
+    filter: invert(100%);
 }
 
 .design
