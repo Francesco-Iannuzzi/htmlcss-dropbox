@@ -194,14 +194,7 @@ body
 
 .debug #plans
 {
-    height: 100rem;
     padding: 5rem 0 3rem;
-}
-
-
-.debug .type_plans
-{
-    height: 80rem;
 }
 
 .type_planstop h2
@@ -226,21 +219,13 @@ body
     justify-content: space-between;
 }
 
-
-.debug .type_plansbottom
+.single_plans
 {
-    /* height: 90%; */
-    background-color: blue;
+    font-size: 0.9rem;
 }
 
 .single_plans
 {
-    font-size: 1rem;
-}
-
-.single_plans
-{
-    background-color: yellow;
     border: 1px solid var(--db-dark);
     width: calc(100% / 3 - 2rem);
 }
@@ -253,11 +238,30 @@ body
     text-align: center;
 }
 
+.single_plans hr
+{
+    width: 5rem;
+}
+
+.horizontal
+{
+    margin-top: 2rem;
+    width: 100%;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+#sp_button
+{
+    position: absolute;
+    right: 1rem;
+    top: 8rem;
+}
+
 .single_plans button
 {
     background-color: var(--db-button);
     color: var(--db-light);
-    font-size: 1.25rem;
 }
 
 .dettails .check
@@ -288,7 +292,7 @@ body
 
 .debug .contact_left
 {
-    background-color: yellow;
+    background-color: green;
     height: 30rem;
 }
 
@@ -299,7 +303,7 @@ body
 
 .debug .contact_right
 {
-    background-color: blue;
+    background-color: orange;
     height: 30rem;
 }
 
