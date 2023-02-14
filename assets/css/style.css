@@ -354,34 +354,94 @@ body
 
 /* #region leaders_team */
 
-.debug .leaders_team
-{
-    height: 30rem;
-    margin-top: 5rem;
-}
-
-
 .leaders
 {
     width: calc(100% / 3);
 }
 
-.leaders.left
+.leaders.left,
+.leaders.right
 {
-    background-color: yellow;
-    height: 30rem;
+    flex-wrap: wrap;
 }
 
 .leaders.center
 {
-    background-color: blue;
-    height: 30rem;
+    background-color: var(--db-teamprimary);
+    padding: 3rem;
+}
+
+.leaders.center img
+{
+    height: 5rem;
+}
+
+.leaders.center p
+{
+    margin: 2rem 0;
 }
 
 .leaders.right
 {
     background-color: green;
     height: 30rem;
+}
+
+.square
+{
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+}
+
+.square > img
+{
+    align-items: center;
+    max-width: 40%;
+}
+
+.design
+{
+    background-color: var(--db-teamdesign);
+    border: 10px solid var(--db-teamdesignb);
+}
+
+.asu
+{
+    background-color: var(--db-teamasu);
+}
+
+.florida
+{
+    background-color: var(--db-teamflo)
+}
+
+.topps
+{
+    background-color: var(--db-teamtop)
+}
+
+.world
+{
+    background-color: var(--db-teamworld)
+}
+
+.hearts
+{
+    background-color: var(--db-teamhearts)
+}
+
+.lonely
+{
+    background-color: var(--db-teamlonely)
+}
+
+.clear
+{
+    background-color: var(--db-teamclear)
 }
 
 /* #endregion leaders_team */
