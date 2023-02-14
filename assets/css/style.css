@@ -344,10 +344,10 @@ body
 
 /* #region team */
 
-.debug .more_team
+.more_team h2
 {
-    background-color: red;
-    height: 20rem;
+    width: 70%;
+    margin-bottom: 3rem;
 }
 
 /* #endregion team */
