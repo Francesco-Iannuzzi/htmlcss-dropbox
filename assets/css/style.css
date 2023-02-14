@@ -120,7 +120,7 @@ section
     left: 0;
     z-index: 1000;
     background-color: var(--db-light);
-    line-height: 4rem;
+    line-height: 3rem;
 }
 
 .navigation
@@ -140,17 +140,19 @@ section
     color: var(--db-light);
 }
 
-.nav_left .nav_b,
-.nav_right .nav_b
+.nav_left .nav_btn,
+.nav_right .nav_btn
 {
-    height: 100%;
     background-color: var(--db-light);
+    line-height: 3rem;
+    margin: 0 1.5rem;
+    padding: 0;
 }
 
-.nav_left .nav_b:hover,
-.nav_right .nav_b:hover
+.nav_left .nav_btn:hover,
+.nav_right .nav_btn:hover
 {
-    border-bottom: 3px solid var(--db-dark);
+    border-bottom: 2px solid black;
 }
 
 /* #endregion header */
