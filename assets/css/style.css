@@ -24,6 +24,21 @@
     --db-teamlonely: #0d2481;
     --db-teamclear: #ffd830;
     --db-grenade: #610a2c;
+    --db-lang: #979899;
+}
+
+body 
+{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 2000px;
+    min-width: 1700px;
+    scroll-behavior: smooth;
+    color: var(--db-dark);
+}
+
+h1
+{
+    font-size: 4.5rem;
 }
 
 h2
@@ -90,15 +105,6 @@ section
 
 /* #endregion utilities */
 
-body 
-{
-    font-family: 'Open Sans', sans-serif;
-    max-width: 2000px;
-    min-width: 1700px;
-    scroll-behavior: smooth;
-    color: var(--db-dark);
-}
-
 /* #region header */
 
 .app-header
@@ -149,7 +155,6 @@ body
 
 #jumbotron h1
 {
-    font-size: 4.5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     color: var(--db-dark);
@@ -532,28 +537,35 @@ li:hover span
     margin-top: 5rem;
 }
 
-.debug #app-footer
+.info
 {
-    height: 30rem;
+    color: var(--db-light);
+    width: calc(100% / 5);
+    padding: 3rem 0;
+}
+.info h3
+{
+    line-height: 5rem;
+}
+.info button
+{
+    background-color: var(--db-dark);
+    color: var(--db-light);
+    padding-left: 0;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
 }
 
-.debug .top_footer
+.bottom_footer
 {
-    background-color: red;
-    height: 70%;
+    line-height: 5rem;
+    font-size: 0.75rem;
+    color: var(--db-lang)
 }
 
-.debug .bottom_footer
+.bottom_footer hr
 {
-    background-color: blue;
-    height: 30%;
-}
-
-.debug .info
-{
-    background-color: yellow;
-    border: 2px solid green;
-    width: calc(100% / 5);   
+    width: 5rem;
 }
 
 /* #endregion footer */
