@@ -354,26 +354,26 @@ body
 
 /* #region leaders_team */
 
+.leaders_team
+{
+    margin-bottom: 0;
+}
+
 .leaders
 {
     width: calc(100% / 3);
-}
-
-.leaders.left,
-.leaders.right
-{
-    flex-wrap: wrap;
 }
 
 .leaders.center
 {
     background-color: var(--db-teamprimary);
     padding: 3rem;
+    height: 30rem;
 }
 
 .leaders.center img
 {
-    height: 5rem;
+    width: 50%;
 }
 
 .leaders.center p
@@ -381,10 +381,10 @@ body
     margin: 2rem 0;
 }
 
+.leaders.left,
 .leaders.right
 {
-    background-color: green;
-    height: 30rem;
+    flex-wrap: wrap;
 }
 
 .square
