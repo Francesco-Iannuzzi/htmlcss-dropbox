@@ -126,7 +126,7 @@ section
     left: 0;
     z-index: 1000;
     background-color: var(--db-light);
-    line-height: 3rem;
+    line-height: 4rem;
     padding: 0 1rem;
 }
 
@@ -139,13 +139,13 @@ section
 {
     max-width: 100%;
     vertical-align: middle;
-
 }
 
 #login
 {
     background-color: var(--db-button);
     color: var(--db-light);
+    font-size: 1rem;
 }
 
 #login:hover
@@ -153,17 +153,18 @@ section
     background-color: #08429f;
 }
 
-.nav_left .nav_btn,
-.nav_right .nav_btn
+.menu_left .nav_btn,
+.menu_right .nav_btn
 {
     background-color: var(--db-light);
-    line-height: 3rem;
+    line-height: 4rem;
     margin: 0 1.5rem;
     padding: 0;
+    font-size: 1rem;
 }
 
-.nav_left .nav_btn:hover,
-.nav_right .nav_btn:hover
+.menu_left .nav_btn:hover,
+.menu_right .nav_btn:hover
 {
     border-bottom: 2px solid black;
 }
@@ -296,6 +297,11 @@ section
 .my-plans > a
 {
     padding-left: 0.5rem;
+}
+
+.vertical
+{
+    min-height: 100vh;
 }
 
 .horizontal
@@ -441,6 +447,7 @@ section
     text-align: center;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 
 .square > img
