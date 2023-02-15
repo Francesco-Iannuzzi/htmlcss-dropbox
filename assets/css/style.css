@@ -81,13 +81,13 @@ section
 
 .container
 {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
 .small_container 
 {
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -157,6 +157,7 @@ section
     margin: 0 1.5rem;
     padding: 0;
     font-size: 1rem;
+    border-bottom: 2px solid transparent;
 }
 
 .menu_left .nav_btn:hover,
@@ -285,11 +286,6 @@ section
     padding-left: 0.5rem;
 }
 
-.vertical
-{
-    min-height: 100vh;
-}
-
 .horizontal
 {
     margin-top: 2rem;
@@ -297,6 +293,7 @@ section
     position: relative;
     padding-bottom: 2rem;
 }
+
 
 .special
 {
@@ -528,7 +525,7 @@ section
     padding-right: 2rem;
 }
 
-.faq span
+.faq .question_ghost
 {
     display: none;
 }
@@ -548,9 +545,9 @@ li:hover .down
     display: none;
 }
 
-li:hover span
+li:hover .question_ghost
 {
-    display: inline-block;
+    display: block;
 }
 
 /* #endregion faq */
