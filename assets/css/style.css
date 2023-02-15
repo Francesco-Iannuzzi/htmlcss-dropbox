@@ -91,20 +91,16 @@ section
     margin: auto;
 }
 
-.px-2
-{
-    padding: 0 2rem;
-}
-
 .opacity:hover
 {
     opacity: 0.6;
 }
 
-.my-plans
+.mp-plans
 {
     margin: 2rem 0;
     line-height: 3rem;
+    padding: 0 2rem;
 }
 
 .btn_blue
@@ -249,7 +245,7 @@ section
 }
 
 
-.type_plansbottom
+.type_planscard
 {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -284,7 +280,7 @@ section
     color: var(--db-lang);
 }
 
-.my-plans > a
+.mp-plans > a
 {
     padding-left: 0.5rem;
 }
@@ -592,12 +588,17 @@ li:hover span
 {
     line-height: 5rem;
     font-size: 0.75rem;
-    color: var(--db-lang)
+    color: var(--db-lang);
 }
 
 .bottom_footer hr
 {
     width: 5rem;
+}
+
+.lang > span
+{
+    margin: 0 0.25rem;
 }
 
 /* #endregion footer */
