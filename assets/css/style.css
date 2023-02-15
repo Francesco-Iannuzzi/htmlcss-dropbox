@@ -31,7 +31,6 @@ body
 {
     font-family: 'Open Sans', sans-serif;
     max-width: 2000px;
-    min-width: 1700px;
     scroll-behavior: smooth;
     color: var(--db-dark);
 }
@@ -107,6 +106,13 @@ section
 {
     background-color: var(--db-button);
     color: var(--db-light);
+}
+
+.btn_plans
+{
+    font-size: 1rem;
+    width: 100%;
+    margin: auto;
 }
 
 /* #endregion utilities */
@@ -260,13 +266,13 @@ section
 
 .single_plans
 {
-    border: 1px solid var(--db-dark);
+    border: 1px solid var(--db-lang);
     width: calc(100% / 3 - 2rem);
 }
 
-.single_plans .rectangle
+.single_plans .card_header
 {
-    border: 1px solid var(--db-dark);
+    border-bottom: 1px solid var(--db-lang);
     padding: 1rem 0;
     font-size: 0.8rem;
     text-align: center;
@@ -275,6 +281,11 @@ section
 .single_plans hr
 {
     width: 5rem;
+}
+
+.text_muted
+{
+    color: var(--db-lang);
 }
 
 .my-plans > button:hover
@@ -299,7 +310,8 @@ section
 {
     position: absolute;
     right: 1rem;
-    top: 8rem;
+    top: 6rem;
+    font-size: 1rem;
 }
 
 .dettails .check
@@ -345,6 +357,11 @@ section
 /* #endregion partner */
 
 /* #region business */
+
+.more_operation h2
+{
+    margin-bottom: 3rem;
+}
 
 .more_operation h3
 {
