@@ -42,7 +42,7 @@ h1
 
 h2
 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 h3
@@ -395,17 +395,18 @@ section
 
 /* #region team */
 
+.more_team
+{
+    margin-bottom: 10rem;
+}
+
 .more_team h2
 {
     width: 60%;
     margin-bottom: 3rem;
 }
 
-/* #endregion team */
-
-/* #region leaders_team */
-
-.leaders_team
+.team
 {
     margin-bottom: 0;
 }
@@ -498,7 +499,7 @@ section
     background-color: var(--db-teamclear)
 }
 
-/* #endregion leaders_team */
+/* #endregion team */
 
 /* #region banner */
 
