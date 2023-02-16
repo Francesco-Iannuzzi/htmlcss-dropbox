@@ -1,14 +1,12 @@
 /* #region commons */
 
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root
-{
+:root {
     --db-light: #ffffff;
     --db-jumbo: #b4d0e7;
     --db-dark: #000000;
@@ -27,36 +25,30 @@
     --db-lang: #979899;
 }
 
-body 
-{
+body {
     font-family: 'Open Sans', sans-serif;
     max-width: 2000px;
     scroll-behavior: smooth;
     color: var(--db-dark);
 }
 
-h1
-{
+h1 {
     font-size: 4.5rem;
 }
 
-h2
-{
+h2 {
     font-size: 2.5rem;
 }
 
-h3
-{
+h3 {
     font-size: 1.5rem;
 }
 
-ul
-{
+ul {
     list-style: none;
 }
 
-button
-{
+button {
     text-decoration: none;
     border: none;
     text-align: center;
@@ -64,8 +56,7 @@ button
     cursor: pointer;
 }
 
-section
-{
+section {
     margin-bottom: 10rem;
 }
 
@@ -74,43 +65,37 @@ section
 
 /* #region utilities */
 
-.flex
-{
+.flex {
     display: flex;
 }
 
-.container
-{
+.container {
     width: 80%;
     margin: auto;
 }
 
-.small_container 
-{
+.small_container {
     width: 70%;
     margin: auto;
 }
 
-.opacity:hover
-{
+.opacity:hover {
     opacity: 0.6;
+    transition: 0.3s;
 }
 
-.mp-plans
-{
+.mp-plans {
     margin: 2rem 0;
     line-height: 3rem;
     padding: 0 2rem;
 }
 
-.btn_blue
-{
+.btn_blue {
     background-color: var(--db-button);
     color: var(--db-light);
 }
 
-.btn_plans
-{
+.btn_plans {
     font-size: 1rem;
     width: 100%;
     margin: auto;
@@ -120,8 +105,7 @@ section
 
 /* #region header */
 
-.app-header
-{
+.app-header {
     position: sticky;
     top: 0;
     left: 0;
@@ -129,41 +113,37 @@ section
     background-color: var(--db-light);
     line-height: 4rem;
     padding: 0 1rem;
+    border-bottom: 1px solid var(--db-lang);
 }
 
-.navigation
-{
+.navigation {
     justify-content: space-between;
 }
 
-#logo
-{
+#logo {
     max-width: 100%;
     vertical-align: middle;
 }
 
-.login
-{
+.login {
     background-color: var(--db-button);
     color: var(--db-light);
     font-size: 1rem;
 }
 
 .menu_left .nav_btn,
-.menu_right .nav_btn
-{
+.menu_right .nav_btn {
     background-color: var(--db-light);
     line-height: 4rem;
-    margin: 0 1.5rem;
-    padding: 0;
+    padding: 0 1.5rem;
     font-size: 1rem;
     border-bottom: 2px solid transparent;
 }
 
 .menu_left .nav_btn:hover,
-.menu_right .nav_btn:hover
-{
+.menu_right .nav_btn:hover {
     border-bottom: 2px solid black;
+    transition: 0.3s;
 }
 
 /* #endregion header */
@@ -172,32 +152,27 @@ section
 
 /* #region jumbotron */
 
-#jumbotron
-{
+#jumbotron {
     background-color: var(--db-jumbo);
     margin-bottom: 10rem;
 }
 
-#jumbotron h1
-{
+#jumbotron h1 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     color: var(--db-dark);
 }
 
-.allyouneed
-{
+.allyouneed {
     height: 100%
 }
 
 
-.allyouneed_bottom
-{
+.allyouneed_bottom {
     position: relative;
 }
 
-.jumbo_text
-{
+.jumbo_text {
     width: 30%;
     max-height: 100%;
     font-size: 1.2rem;
@@ -205,14 +180,12 @@ section
 }
 
 
-.jumbo_text button
-{
+.jumbo_text button {
     margin: 2rem 0;
     font-size: 1.2rem;
 }
 
-.arrow
-{
+.arrow {
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -220,13 +193,11 @@ section
 }
 
 
-#jumbotron img
-{
+#jumbotron img {
     max-width: 100%;
 }
 
-.jumbo_img
-{
+.jumbo_img {
     width: 70%;
     margin-bottom: -5rem;
 }
@@ -235,59 +206,49 @@ section
 
 /* #region plans */
 
-.type_planstop > .billing
-{
+.type_planstop>.billing {
     padding: 2rem 0;
 }
 
-.billing_type
-{
+.billing_type {
     margin-right: 3rem;
 }
 
 
-.type_planscard
-{
+.type_planscard {
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.single_plans
-{
+.single_plans {
     font-size: 0.8rem;
 }
 
-.single_plans
-{
+.single_plans {
     border: 1px solid var(--db-lang);
     width: calc(100% / 3 - 2rem);
 }
 
-.single_plans .card_header
-{
+.single_plans .card_header {
     border-bottom: 1px solid var(--db-lang);
     padding: 1rem 0;
     font-size: 0.8rem;
     text-align: center;
 }
 
-.single_plans hr
-{
+.single_plans hr {
     width: 5rem;
 }
 
-.text_muted
-{
+.text_muted {
     color: var(--db-lang);
 }
 
-.mp-plans > a
-{
+.mp-plans>a {
     padding-left: 0.5rem;
 }
 
-.horizontal
-{
+.horizontal {
     margin-top: 2rem;
     width: 100%;
     position: relative;
@@ -295,45 +256,39 @@ section
 }
 
 
-.special
-{
+.special {
     position: absolute;
     right: 1rem;
     top: 6rem;
     font-size: 1rem;
 }
 
-.dettails .check
-{
+.dettails .check {
     color: var(--db-button);
 }
+
 /* #endregion plans */
 
 /* #region partner */
 
-.contact_left
-{
+.contact_left {
     width: 60%;
 }
 
-.contact_left img
-{
+.contact_left img {
     max-width: 100%;
 }
 
-.contact_right
-{
+.contact_right {
     width: 40%;
     padding: 5rem 3rem;
 }
 
-.contact_right p
-{
+.contact_right p {
     margin: 3rem 0;
 }
 
-.contact_right button
-{
+.contact_right button {
     background-color: var(--db-light);
     border: 1px solid var(--db-dark);
 }
@@ -342,30 +297,25 @@ section
 
 /* #region business */
 
-.more_operation h2
-{
+.more_operation h2 {
     margin-bottom: 3rem;
 }
 
-.more_operation h3
-{
+.more_operation h3 {
     margin-bottom: 1rem;
 }
 
-.more_operationbottom
-{
+.more_operationbottom {
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.operations
-{
+.operations {
     width: 30%;
     margin-bottom: 3rem;
 }
 
-.operations img
-{
+.operations img {
     max-width: 100%;
 }
 
@@ -373,52 +323,43 @@ section
 
 /* #region team */
 
-.more_team
-{
+.more_team {
     margin-bottom: 10rem;
 }
 
-.more_team h2
-{
+.more_team h2 {
     width: 60%;
     margin-bottom: 3rem;
 }
 
-.team
-{
+.team {
     margin-bottom: 0;
 }
 
-.leaders
-{
+.leaders {
     width: calc(100% / 3);
 }
 
-.leaders.center
-{
+.leaders.center {
     background-color: var(--db-teamprimary);
     padding: 3rem;
     height: 35rem;
 }
 
-.leaders.center img
-{
+.leaders.center img {
     width: 50%;
 }
 
-.leaders.center p
-{
+.leaders.center p {
     margin: 2rem 0;
 }
 
 .leaders.left,
-.leaders.right
-{
+.leaders.right {
     flex-wrap: wrap;
 }
 
-.square
-{
+.square {
     height: calc(100% / 2);
     width: calc(100% / 2);
     background-color: red;
@@ -429,51 +370,42 @@ section
     border: none;
 }
 
-.square > img
-{
+.square>img {
     max-width: 40%;
     max-height: 40%;
     filter: invert(100%);
 }
 
-.design
-{
+.design {
     background-color: var(--db-teamdesign);
     border: 10px solid var(--db-teamdesignb);
 }
 
-.asu
-{
+.asu {
     background-color: var(--db-teamasu);
 }
 
-.florida
-{
+.florida {
     background-color: var(--db-teamflo)
 }
 
-.topps
-{
+.topps {
     background-color: var(--db-teamtop)
 }
 
-.world
-{
+.world {
     background-color: var(--db-teamworld)
 }
 
-.hearts
-{
+.hearts {
     background-color: var(--db-teamhearts)
 }
 
-.lonely
-{
+.lonely {
     background-color: var(--db-teamlonely)
 }
 
-.clear
-{
+.clear {
     background-color: var(--db-teamclear)
 }
 
@@ -481,25 +413,21 @@ section
 
 /* #region banner */
 
-#banner
-{
-    background-color: var(--db-jumbo); 
+#banner {
+    background-color: var(--db-jumbo);
 }
 
 .company_left,
-.company_right
-{
+.company_right {
     width: 50%;
     padding: 6rem;
 }
 
-.company_left > h2
-{
+.company_left>h2 {
     color: var(--db-grenade);
 }
 
-.company_right button
-{
+.company_right button {
     font-size: 1rem;
     background-color: var(--db-light);
     cursor: pointer;
@@ -511,42 +439,35 @@ section
 
 .faq h2,
 .faq li,
-.faq i
-{
+.faq i {
     line-height: 6rem;
     justify-content: space-between;
 }
 
-.questions li
-{
+.questions li {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     font-size: 0.8rem;
     padding-right: 2rem;
 }
 
-.faq .question_ghost
-{
+.faq .question_ghost {
     display: none;
 }
 
-.faq .up
-{
+.faq .up {
     display: none;
 }
 
-li:hover .up
-{
+li:hover .up {
     display: block;
 }
 
-li:hover .down
-{
+li:hover .down {
     display: none;
 }
 
-li:hover .question_ghost
-{
+li:hover .question_ghost {
     display: block;
 }
 
@@ -556,24 +477,22 @@ li:hover .question_ghost
 
 /* #region footer */
 
-#app-footer
-{
+#app-footer {
     background-color: var(--db-dark);
     margin-top: 5rem;
 }
 
-.info
-{
+.info {
     color: var(--db-light);
     width: calc(100% / 5);
     padding: 3rem 0;
 }
-.info h3
-{
+
+.info h3 {
     line-height: 5rem;
 }
-.info button
-{
+
+.info button {
     background-color: var(--db-dark);
     color: var(--db-light);
     padding-left: 0;
@@ -581,20 +500,17 @@ li:hover .question_ghost
     line-height: 1.25rem;
 }
 
-.bottom_footer
-{
+.bottom_footer {
     line-height: 5rem;
     font-size: 0.75rem;
     color: var(--db-lang);
 }
 
-.bottom_footer hr
-{
+.bottom_footer hr {
     width: 5rem;
 }
 
-.lang > span
-{
+.lang>span {
     margin: 0 0.25rem;
 }
 
