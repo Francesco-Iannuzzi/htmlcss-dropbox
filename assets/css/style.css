@@ -60,7 +60,6 @@ section {
     margin-bottom: 10rem;
 }
 
-
 /* #endregion commons */
 
 /* #region utilities */
@@ -168,7 +167,6 @@ section {
     height: 100%
 }
 
-
 .allyouneed_bottom {
     position: relative;
 }
@@ -179,7 +177,6 @@ section {
     font-size: 1.2rem;
     color: var(--db-dark);
 }
-
 
 .jumbo_text button {
     margin: 2rem 0;
@@ -192,7 +189,6 @@ section {
     left: 10px;
     color: var(--db-dark);
 }
-
 
 #jumbotron img {
     max-width: 100%;
@@ -222,12 +218,9 @@ section {
 }
 
 .single_plans {
-    font-size: 0.8rem;
-}
-
-.single_plans {
     border: 1px solid var(--db-lang);
     width: calc(100% / 3 - 2rem);
+    font-size: 0.8rem;
 }
 
 .single_plans .card_header {
@@ -245,7 +238,7 @@ section {
     color: var(--db-lang);
 }
 
-.mp-plans>a {
+.mp-plans > a {
     padding-left: 0.5rem;
 }
 
@@ -371,9 +364,9 @@ section {
     border: none;
 }
 
-.square>img {
-    max-width: 40%;
-    max-height: 40%;
+.square > img {
+    max-width: 50%;
+    max-height: 50%;
     filter: invert(100%);
 }
 
@@ -424,7 +417,7 @@ section {
     padding: 6rem;
 }
 
-.company_left>h2 {
+.company_left > h2 {
     color: var(--db-grenade);
 }
 
@@ -445,7 +438,7 @@ section {
     justify-content: space-between;
 }
 
-.questions li {
+.questions {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     font-size: 0.8rem;
@@ -454,21 +447,22 @@ section {
 
 .faq .question_ghost {
     display: none;
+    line-height: 3rem;
 }
 
 .faq .up {
     display: none;
 }
 
-li:hover .up {
+.questions:hover .up {
     display: block;
 }
 
-li:hover .down {
+.questions:hover .down {
     display: none;
 }
 
-li:hover .question_ghost {
+.questions:hover .question_ghost {
     display: block;
 }
 
