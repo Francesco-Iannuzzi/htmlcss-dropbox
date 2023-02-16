@@ -430,8 +430,11 @@ section {
 /* #endregion banner */
 
 /* #region faq */
+.faq h2 {
+    line-height: 10rem;
+    border-bottom: 1px solid black;
+}
 
-.faq h2,
 .faq li,
 .faq i {
     line-height: 6rem;
@@ -439,7 +442,7 @@ section {
 }
 
 .questions {
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
     border-bottom: 1px solid black;
     font-size: 0.8rem;
     padding-right: 2rem;
